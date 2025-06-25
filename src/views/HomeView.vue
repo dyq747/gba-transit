@@ -1,9 +1,7 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import GbaMap from './GbaMap.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <GbaMap />
 </template>
