@@ -1,39 +1,35 @@
-# gba-transit
+# 🚇 粤港澳大湾区城市交通可视化
 
-This template should help get you started developing with Vue 3 in Vite.
+<h2 align="center">
+基于 Vue3 和 Mapbox GL JS 的中国城市地铁可视化应用
+</h2><br>
 
-## Recommended IDE Setup
+<pre align="center">
+🚇 数据截止：2025年7月
+</pre>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 项目简介
 
-## Type Support for `.vue` Imports in TS
+这是一个展示粤港澳大湾区城市交通线路的可视化应用，使用现代 Web 技术栈构建，提供交互式的交通网络浏览体验。
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 技术栈
 
-## Customize configuration
+### 核心技术
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **前端框架**: Vue 3
+- **可视化**: Mapbox GL JS
+- **状态管理**: Pinia
+- **类型检查**: TypeScript
+- **构建工具**: Vite
 
-## Project Setup
 
-```sh
-pnpm install
-```
+## 数据说明
 
-### Compile and Hot-Reload for Development
+- 📊 **数据来源**: 开放广东
+- 📅 **数据时间**: 截止至 2025年7月
+- 🏙️ **覆盖城市**: 包含广州、深圳、佛山、澳门等主要城市
 
-```sh
-pnpm dev
-```
 
-### Type-Check, Compile and Minify for Production
+## 许可证
 
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+MIT License
